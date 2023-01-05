@@ -1,0 +1,333 @@
+
+
+.header{
+
+  
+    &__mobile{
+        display: none;
+    }
+
+    &__navbar{
+        
+       
+        position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 9999999999999999999999991000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    padding: 15px 10%;
+    transition: .2s;
+
+      &__left{
+        display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 4rem;
+        &__ul{
+            display: flex;
+            gap: 2rem;
+            &__name{
+                display: flex;
+                gap: 1.5rem;
+                opacity: .7;
+
+                &__li{
+                    display: block;
+                }
+            }
+        }
+      }
+         
+        &__right{
+
+            &__btn{
+                @include forbtn
+            }
+        }
+    }
+
+
+
+    &__hero{
+        color: white;
+        position: relative;
+        background-image: url('..//../img/moto.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 40rem;
+        margin-top: 4.3rem;
+   
+        
+         &__line1{
+            width: 12%;
+            position: absolute;
+             top: 50%;
+         }
+
+         &__line2{
+            width: 24%;
+            position: absolute;
+            top: 50%;
+            left: 45rem;
+         }
+        &__h1{
+       width: 50%;
+       padding-top: 10%;
+       padding-left: 10%;
+       
+       font-family: 'Space Mono';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 56px;
+       line-height: 56px;
+        }
+        &__p{
+            width: 45%;
+            padding-top: 1rem;
+       padding-left: 15%;
+       font-family: 'Lexend Deca';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 15px;
+       line-height: 25px;
+
+        }
+
+       
+        &__btn{
+            @include forbtn;
+            margin-top: 1rem;
+            margin-left: 15%;
+            
+        }
+    }
+}
+
+
+
+
+
+@media (max-width:1326px){
+    .header{
+
+
+        
+        &__hero{
+            color: white;
+            position: relative;
+            background-image: url('..//../img/moto.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 40rem;
+            margin-top: 4.3rem;
+       
+            
+             &__line1{
+                width: 10%;
+                position: absolute;
+                 top: 45%;
+             }
+    
+             &__line2{
+                width: 20%;
+                position: absolute;
+                top: 45%;
+                left: 53%;
+             }
+            &__h1{
+           width: 60%;
+           padding-top: 10%;
+           padding-left: 15%;
+           
+           font-family: 'Space Mono';
+           font-style: normal;
+           font-weight: 700;
+           font-size: 51px;
+           line-height: 56px;
+            }
+            &__p{
+                width: 53%;
+                padding-top: 1rem;
+           padding-left: 20%;
+           font-family: 'Lexend Deca';
+           font-style: normal;
+           font-weight: 400;
+           font-size: 15px;
+           line-height: 25px;
+    
+            }
+    
+           
+            &__btn{
+                @include forbtn;
+                margin-top: 1rem;
+                margin-left: 20%;
+                
+            }
+        }
+       
+    }
+}
+
+@media (max-width:1182px){
+    .header{
+
+
+        
+        &__hero{
+            color: white;
+            position: relative;
+            background-image: url('..//../img/moto.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 40rem;
+            margin-top: 4.3rem;
+       
+            
+             &__line1{
+                width: 10%;
+                position: absolute;
+                 top: 45%;
+             }
+    
+             &__line2{
+                width: 20%;
+                position: absolute;
+                top: 45%;
+                left: 65%;
+             }
+            &__h1{
+           width: 68%;
+           padding-top: 10%;
+           padding-left: 22%;
+           
+           font-family: 'Space Mono';
+           font-style: normal;
+           font-weight: 700;
+           font-size: 46px;
+           line-height: 56px;
+            }
+            &__p{
+                width: 63%;
+                padding-top: 1rem;
+           padding-left: 25%;
+           font-family: 'Lexend Deca';
+           font-style: normal;
+           font-weight: 400;
+           font-size: 15px;
+           line-height: 25px;
+    
+            }
+    
+           
+            &__btn{
+                @include forbtn;
+                margin-top: 1rem;
+                margin-left: 25%;
+                
+            }
+        }
+       
+    }
+}
+
+@media (max-width:992px){
+    .header{
+
+
+        
+        &__hero{
+            color: white;
+            position: relative;
+            background-image: url('..//../img/moto.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 40rem;
+            margin-top: 4.3rem;
+       
+            padding: 0; 
+             &__line1{
+               display: none;
+           
+             }
+    
+             &__line2{
+                width: 30%;
+                position: absolute;
+                top: 93%;
+                left: 0%;
+                
+             }
+            &__h1{
+             width: 80%;
+           text-align: center;
+        //    margin-left: -5%;
+           font-size: 2rem;
+            }
+            &__p{
+                width: 80%;
+              
+           text-align: center;
+             margin-bottom: 2rem;
+             
+            }
+    
+           
+            &__btn{
+                @include forbtn;
+                
+                margin: auto;
+                display: block;
+                
+            }
+        }
+       
+    }
+}
+
+
+@media (max-width:768px){
+    .header{
+        &__navbar{
+            display: none;
+        }
+        &__mobile{
+             
+        position: fixed;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: 999999999999999999991000;
+        background-color: white;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    padding: 15px 10%;
+    transition: .2s;
+        background-color: white;
+            display: flex;
+            align-items: center;
+            height: 3rem;
+        
+            &__logo{
+                display: block;
+                margin: auto;
+        
+                &__img{
+                    width: 4rem;
+                }
+            }
+        }
+    
+       
+    }
+}
+
+

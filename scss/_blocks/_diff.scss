@@ -1,0 +1,147 @@
+
+
+.diff{
+    // background-image: url("/img/line.png");
+    // background-size: 90% 1rem;
+    // background-position: top;
+    // background-repeat: no-repeat;
+    position: relative;
+    margin-top: 3rem;
+
+
+    &__tablet{
+        display: none;
+    }
+        &__image{
+            position: absolute;
+            top: 2rem;
+            width: 70%;
+            left: 0;
+        }
+    &__ul{
+        top: 0;
+        z-index: 100;
+        position: absolute;
+        display: flex;
+      
+        gap: 3rem;
+        padding: 1rem 3rem;
+        &__li{
+
+
+            &__img{
+                width: 3rem;
+               
+            }
+            &__text{
+                &__h2{
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            
+
+        }
+    }
+}
+
+
+@media (max-width:992px){
+
+    .diff{
+        margin-top: 4rem;
+        position: relative;
+
+        &__tablet{
+            position: absolute;
+            display: block;
+            width: .8rem;
+            height: 29rem;
+            left: 5.4rem;
+            top: -4rem;
+        }
+        &__image{
+            display: none;
+            
+        }
+        &__ul{
+            z-index: 1926;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+
+            &__li{
+                display: flex; 
+                  gap: 2rem;
+                &__img{
+                 
+                }
+
+                &__text{
+                    &__h2{
+                     margin-bottom: 1rem;
+                    }
+
+                    &__p{
+
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:942px){
+
+    .diff{
+
+        &__tablet{
+            height: 31.5rem;
+        }
+    }
+}
+
+
+
+
+@media (max-width:768px){
+    .diff{
+        &__tablet{
+            display: none;
+        }
+        &__ul{
+
+            &__li{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                &__text{
+                    &__h2{
+                        text-align: center;
+                    }
+
+                    &__p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

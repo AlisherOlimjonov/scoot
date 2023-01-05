@@ -1,0 +1,271 @@
+
+
+// .coming{
+
+//      padding-left: 5rem;
+//      padding-right: 5rem;
+//    position: absolute;
+//    top: 100rem;
+
+//    display: flex;
+  
+//      &__image{
+//         &__circle{
+//             width: 23rem;
+//         }
+//      }
+//      &__text{
+  
+          
+//         &__p{
+//             width: 50%;
+//             margin-bottom: 2rem;
+//             margin-top: 2rem;
+//               text-align: center;
+//         }
+
+//         &__h1{
+//             font-family: 'Space Mono';
+// font-style: normal;
+// font-weight: 700;
+// font-size: 48px;
+// line-height: 48px;
+// width: 60%
+//         }
+//         &__btn{
+//             @include forbtn;        }
+//     }
+   
+// }
+
+
+
+// @media (max-width:992px){
+//     .coming{
+//         margin-top: 20rem ;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         flex-direction: column;
+//          &__image{
+//             &__circle{
+//                 width: 18rem;
+//             }
+//          }
+//         &__text{
+//             &__btn{
+//                 margin: 0;
+//             }
+//             &__h1{
+//                  text-align: center;
+//                 font-size: 2rem;
+//             }
+
+//             &__p{
+//                 font-size: 1rem;
+//                text-align: center;
+//                width: 80%;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.coming{
+    overflow: hidden;
+
+ display: flex;
+ top: 100rem;
+ position: absolute;
+ padding: 0 5rem;
+
+ &__img{
+    position: relative;
+    &__circle{
+        width: 25rem;
+    }
+    &__arrow{
+        position: absolute;
+        top: 2rem;
+        left: -10rem;
+    }
+
+    &__half{
+        z-index: 666666;
+                position: absolute;
+                width: 445px;
+        height: 445px;
+        border-radius:   0 100% 100%  0  ;
+        background-color: #e5e5e5;
+        top: -1rem;
+        right: 25.5rem;
+    }
+ }
+
+ &__text{
+    margin-left: 13rem;
+    &__h1{
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        width: 70%;
+    }
+    &__p{
+    margin-bottom: 2rem;
+     width: 70%
+    }
+
+    &__btn{
+        @include forbtn;
+    }
+ }
+
+}
+@media (max-width:1314px){
+    .coming{
+        &__text{
+            &__h1{
+                width: 90%;
+            }
+            &__p{
+                width: 90%;
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width:1165px){
+    .coming{
+
+        &__text{
+            margin-top: -2rem;
+        }
+        &__img{
+            &__circle{
+                width: 20rem;
+            }
+            &__arrow{
+                 z-index: 2227799;
+            }
+
+            &__half{
+                left: -28.45rem;
+                top: -3rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width:992px){
+    .coming{
+        display: flex;
+        flex-direction: column;
+        top: 120rem;
+        justify-content: center;
+        align-items: center;
+
+        &__img{
+            &__half{
+                left: -45rem;
+            }
+            &__circle{
+                width: 16rem;
+            }
+            &__arrow{
+                width: 15rem;
+            }
+        }
+
+        &__text{
+            margin-left: 0;
+            &__h1{
+                font-size: 2rem;
+                text-align: center;
+                 margin-left: 10%;
+                width: 80%;
+            padding: 0;
+            }
+            &__p{
+                text-align: center;
+                margin-left: 10%;
+                width: 80%;
+            }
+            &__btn{
+               
+                display: block;
+               margin: auto;
+                 
+               
+            }
+        }
+    }
+}
+
+
+@media (max-width:976px){
+    .coming{
+        top: 125rem;
+
+        &__img{
+
+            &__circle{
+                width: 15rem;
+            }
+        }
+    }
+}
+
+@media (max-width:770px){
+    .coming{
+        top: 149rem;
+    }
+}
+
+@media (max-width:640px){
+    .coming{
+        top: 155rem;
+    }
+}
+
+@media (max-width:500px){
+    .coming{
+        top: 160rem;
+    }
+}
+
+@media (max-width:456px){
+    .coming{
+        top: 163rem;
+    }
+}
+
+@media (max-width:397px){
+    .coming{
+        top: 175rem;
+    }
+}
+
+@media (max-width:439px){
+    .coming{
+        top: 175rem;
+    }
+}

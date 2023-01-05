@@ -1,0 +1,169 @@
+
+// .card{
+
+
+
+//        margin-top: 4rem;
+//     &__text{
+
+
+//         &__ul{
+//             display: flex;
+//             gap: 3rem;
+//             padding: 1rem 5rem;
+
+//             &__li{
+
+//                 &__p{
+//                     // font-weight: 300;
+//                     margin-top: 1rem;
+//                 }
+//             }
+//         }
+//     }
+
+//     &__line{
+
+//         &__ul{
+//             display: flex;
+//             gap: 2rem;
+//             justify-content: space-between;
+//             align-items: center;
+//             margin-top: 4rem;
+//             position: relative;
+//             &__li1{
+//                 margin-left: -8rem;
+                   
+//                     margin-bottom: 2rem;
+//                    width: 23%;
+//                    left: 0;
+//                    height: .8rem;
+//                    background-color: #E5ECF4;
+//             }
+
+//             &__li2{
+//                 width: 3rem;
+//                  height: 3rem;
+//                  border-radius: 50%;
+//                  background-color: #fcb72b;
+//                  display: flex;
+//                  justify-content: center;
+//                  align-items: center;
+//                  margin-left: -34rem;
+//                  margin-top: -2rem;
+//                  z-index: 234;
+//                  &__img{
+//                     width: 1.4rem;
+//                  }
+//             }
+
+//             &__li3{
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 margin-top: -2rem;
+//                 margin-left: -29rem;
+//                 width: 41%;
+//                 height: .8rem;
+//                 background-color: #E5ECF4;
+//             }
+
+//             &__li4{
+//                 width: 3rem;
+//                  height: 3rem;
+//                  border-radius: 50%;
+//                  background-color: #fcb72b;
+//                  display: flex;
+//                  justify-content: center;
+//                  align-items: center;
+//                 margin-top: -2rem;
+//                 z-index: 122;
+//                 margin-left: -40rem;
+//                  &__img{
+//                     width: 1.4rem;
+//                  }
+//             }
+
+//             &__li5{
+//                 width: 20rem;
+//                 height: .8rem;
+//                 background-color: #E5ECF4;
+//                 margin-top: -2rem;
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 margin-left: -30%;
+//             }
+
+//             &__li6{
+//                 width: 3rem;
+//                 height: 3rem;
+//                 border-radius: 50%;
+//                 background-color: #fcb72b;
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                margin-top: -2rem;
+//                z-index: 122;
+                 
+//                &__img{
+//                 width: 1.4rem;
+               
+//              }
+//             }
+
+//         }
+        
+
+//         // &__ul:nth-child(1){
+//         //     margin-left: -3rem;
+//         //     margin-top: 5rem;
+//         //     margin-bottom: 2rem;
+//         //    width: 13rem;
+//         //    left: 0;
+//         //    height: .8rem;
+//         //    background-color: #E5ECF4;
+//         // }
+
+//         // &__ul:nth-child(2){
+//         //     // width: 2rem;
+//         //     // height: 2rem;
+//         //     // border-radius: 50%;
+//         //     // background-color: #FCB72B;
+//         //     // width: 13rem;
+//         //     // left: 0;
+//         //     // height: .8rem;
+//         //     display: none;
+//         // }
+//     }
+
+//     &__text{
+//         &__ul{
+//             display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         // flex-wrap: wrap;
+
+//         &__li{
+
+//             &__p{
+//                 // width: 35%;
+//             }
+//         }
+//         }
+//     }
+// }
+
+
+
+// @media (max-width:993px){
+
+//     .card{
+//         &__text{
+//             &__ul{
+//                 display: flex;
+//                 flex-direction: column;
+//             }
+//         }
+//     }
+// }
